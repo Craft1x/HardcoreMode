@@ -1,0 +1,18 @@
+{
+  "package": "com.craftix.hardm.mixin",
+  "minVersion": "0.6",
+  "required": true,
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "FoodDataMix",
+    "LevelSettingsMix",
+    "ServerPlayerMix"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "maxShiftBy": 10,
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.hardm.refmap.json"
+}

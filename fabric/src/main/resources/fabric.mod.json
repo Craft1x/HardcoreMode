@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hardm",
+  "version": "1.0.0",
+  "name": "Hardcore Mode",
+  "description": "Increases game difficulty",
+  "authors": [
+    "Lupin, Craft1x"
+  ],
+  "contact": {
+    "homepage": "https://linktr.ee/craft1x"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/hardm/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.craftix.hardm.MainEntrypoint"
+    ]
+  },
+  "mixins": [
+    "mixins.hardm.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.23",
+    "minecraft": ">=1.20.1",
+    "java": ">=17"
+
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
